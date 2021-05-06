@@ -15,6 +15,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #111;
+}
+
 .btn-primary {
   font-size: 16px;
   font-weight: 700;
@@ -22,10 +26,10 @@ html {
   border: none;
   outline: none;
   border-radius: 2rem;
-  color: #ffffff;
+  color: white;
   background-size: 200% auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0061d3), to(#2e00d4));
-  background-image: linear-gradient(to right, #0061d3 0%, #2e00d4 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#606af3), to(#313ef0));
+  background-image: linear-gradient(to right, #606af3 0%, #313ef0 100%);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.2s ease;
@@ -49,10 +53,10 @@ html {
   border: none;
   outline: none;
   border-radius: 2rem;
-  color: #ffffff;
+  color: white;
   background-size: 200% auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0061d3), to(#2e00d4));
-  background-image: linear-gradient(to right, #0061d3 0%, #2e00d4 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#606af3), to(#313ef0));
+  background-image: linear-gradient(to right, #606af3 0%, #313ef0 100%);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.2s ease;
@@ -70,7 +74,7 @@ html {
 }
 
 hr {
-  border-top: 1px solid #444;
+  border-top: 1px solid #eeeeee;
   opacity: 0.5;
   margin: 1.5rem 0;
 }
@@ -80,7 +84,7 @@ section {
 }
 
 h2 {
-  color: #111;
+  color: #f5f5f5;
   font-size: 2.75rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -104,6 +108,7 @@ h2 {
   font-size: 24px;
   font-weight: 500;
   height: 100%;
+  color: #f5f5f5;
 }
 
 .navbar ul {
@@ -125,15 +130,15 @@ h2 {
 }
 
 .navbar ul li a {
-  color: #444;
+  color: #eeeeee;
   text-decoration: none;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
 .navbar ul li a > i::before {
-  background: -webkit-gradient(linear, left top, right top, from(#003ed4), to(#2e00d4));
-  background: linear-gradient(to right, #003ed4 0%, #2e00d4 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#606af3), to(#4651f1));
+  background: linear-gradient(to right, #606af3 0%, #4651f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -141,7 +146,7 @@ h2 {
 }
 
 .navbar ul li a:hover {
-  color: #111;
+  color: #f5f5f5;
 }
 
 main {
@@ -165,35 +170,35 @@ main .container .col-sm-6.center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("assets/portrait.webp");
+  background-image: url("assets/main.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  max-height: 50vh;
+  max-height: 40vh;
 }
 
 main .container .col-sm-6.center img {
   visibility: hidden;
-  max-height: 50vh;
+  max-height: 40vh;
 }
 
 main .container h1 {
-  color: #444;
+  color: #eeeeee;
   text-transform: uppercase;
   font-size: 2.25rem;
   margin-bottom: 0.25rem;
 }
 
 main .container h2 {
-  color: #111;
+  color: #f5f5f5;
   font-size: 2.75rem;
   margin-bottom: 0.75rem;
   text-align: left;
 }
 
 main .container h2 span {
-  background: -webkit-gradient(linear, left top, right top, from(#003ed4), to(#2e00d4));
-  background: linear-gradient(to right, #003ed4 0%, #2e00d4 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#606af3), to(#4651f1));
+  background: linear-gradient(to right, #606af3 0%, #4651f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -205,8 +210,8 @@ main .container h2 span {
 
 #whatido .col-sm-3 div {
   border-radius: 0.8rem;
-  -webkit-box-shadow: 0px 0px 32px -8px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 32px -8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 32px -8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 32px -8px rgba(0, 0, 0, 0.3);
   padding: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,6 +221,7 @@ main .container h2 span {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
+  color: #eeeeee;
 }
 
 #whatido .col-sm-3 div img {
@@ -231,10 +237,11 @@ main .container h2 span {
       -ms-grid-row-align: center;
       align-self: center;
   margin-bottom: 0.5rem;
+  color: #f5f5f5;
 }
 
 .footer {
-  background-color: #f5f5f5;
+  background-color: #1a1a1a;
   padding: 3rem 0;
 }
 
@@ -251,7 +258,7 @@ main .container h2 span {
 .footer .container .footer-social > span {
   font-size: 2rem;
   font-weight: 700;
-  color: #111;
+  color: #f5f5f5;
   margin-bottom: 0.5rem;
 }
 
@@ -269,8 +276,8 @@ main .container h2 span {
 }
 
 .footer .container .footer-social > div a {
-  background: -webkit-gradient(linear, left top, right top, from(#003ed4), to(#2e00d4));
-  background: linear-gradient(to right, #003ed4 0%, #2e00d4 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4651f1), to(#313ef0));
+  background: linear-gradient(to right, #4651f1 0%, #313ef0 100%);
   border-radius: 2rem;
   font-size: 1.15rem;
   height: 2.15rem;
@@ -297,11 +304,11 @@ main .container h2 span {
 }
 
 .footer .container .footer-social > div a:hover i {
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 .footer .container .footer-links span {
-  color: #777;
+  color: #dddddd;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
@@ -327,15 +334,15 @@ main .container h2 span {
 }
 
 .footer .container .footer-links ul li a {
-  color: #444;
+  color: #eeeeee;
   text-decoration: none;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
 .footer .container .footer-links ul li a > i::before {
-  background: -webkit-gradient(linear, left top, right top, from(#003ed4), to(#2e00d4));
-  background: linear-gradient(to right, #003ed4 0%, #2e00d4 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4651f1), to(#313ef0));
+  background: linear-gradient(to right, #4651f1 0%, #313ef0 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -343,11 +350,11 @@ main .container h2 span {
 }
 
 .footer .container .footer-links ul li a:hover {
-  color: #111;
+  color: #f5f5f5;
 }
 
 .footer .container .footer-contact span {
-  color: #777;
+  color: #dddddd;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
@@ -373,8 +380,8 @@ main .container h2 span {
 }
 
 .footer .container .footer-contact ul li a {
-  background: -webkit-gradient(linear, left top, right top, from(#003ed4), to(#2e00d4));
-  background: linear-gradient(to right, #003ed4 0%, #2e00d4 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#4651f1), to(#313ef0));
+  background: linear-gradient(to right, #4651f1 0%, #313ef0 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -386,7 +393,7 @@ main .container h2 span {
 }
 
 .footer .container .footer-contact ul li a:hover {
-  color: #111;
+  color: #f5f5f5;
   background-position: initial;
 }
 
@@ -394,7 +401,7 @@ main .container h2 span {
   display: block;
   text-align: center;
   font-weight: 700;
-  color: #777;
+  color: #dddddd;
 }
 
 .footer .container > span a {
