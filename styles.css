@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-color: #111;
+  background-color: #121212;
 }
 
 .btn-primary {
@@ -28,8 +28,8 @@ body {
   border-radius: 2rem;
   color: white;
   background-size: 200% auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#606af3), to(#313ef0));
-  background-image: linear-gradient(to right, #606af3 0%, #313ef0 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#6772ff), to(#2a38ff));
+  background-image: linear-gradient(to right, #6772ff 0%, #2a38ff 100%);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.2s ease;
@@ -55,8 +55,8 @@ body {
   border-radius: 2rem;
   color: white;
   background-size: 200% auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#606af3), to(#313ef0));
-  background-image: linear-gradient(to right, #606af3 0%, #313ef0 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#6772ff), to(#2a38ff));
+  background-image: linear-gradient(to right, #6772ff 0%, #2a38ff 100%);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.2s ease;
@@ -74,7 +74,7 @@ body {
 }
 
 hr {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #e5e5e5;
   opacity: 0.5;
   margin: 1.5rem 0;
 }
@@ -125,20 +125,20 @@ h2 {
   display: inline-block;
   margin-left: 1.5rem;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   height: 100%;
 }
 
 .navbar ul li a {
-  color: #eeeeee;
+  color: #e5e5e5;
   text-decoration: none;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
 .navbar ul li a > i::before {
-  background: -webkit-gradient(linear, left top, right top, from(#606af3), to(#4651f1));
-  background: linear-gradient(to right, #606af3 0%, #4651f1 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#6772ff), to(#5a65ff));
+  background: linear-gradient(to right, #6772ff 0%, #5a65ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -183,10 +183,11 @@ main .container .col-sm-6.center img {
 }
 
 main .container h1 {
-  color: #eeeeee;
+  color: #e5e5e5;
   text-transform: uppercase;
   font-size: 2.25rem;
   margin-bottom: 0.25rem;
+  font-weight: 600;
 }
 
 main .container h2 {
@@ -194,14 +195,20 @@ main .container h2 {
   font-size: 2.75rem;
   margin-bottom: 0.75rem;
   text-align: left;
+  font-weight: 300;
 }
 
 main .container h2 span {
-  background: -webkit-gradient(linear, left top, right top, from(#606af3), to(#4651f1));
-  background: linear-gradient(to right, #606af3 0%, #4651f1 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#6772ff), to(#5a65ff));
+  background: linear-gradient(to right, #6772ff 0%, #5a65ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+main .container a {
+  display: block;
+  margin-right: auto;
 }
 
 #whatido .col-sm-3 {
@@ -221,7 +228,7 @@ main .container h2 span {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  color: #eeeeee;
+  color: #e5e5e5;
 }
 
 #whatido .col-sm-3 div img {
@@ -257,7 +264,7 @@ main .container h2 span {
 
 .footer .container .footer-social > span {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
   color: #f5f5f5;
   margin-bottom: 0.5rem;
 }
@@ -276,8 +283,8 @@ main .container h2 span {
 }
 
 .footer .container .footer-social > div a {
-  background: -webkit-gradient(linear, left top, right top, from(#4651f1), to(#313ef0));
-  background: linear-gradient(to right, #4651f1 0%, #313ef0 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#6772ff), to(#5a65ff));
+  background: linear-gradient(to right, #6772ff 0%, #5a65ff 100%);
   border-radius: 2rem;
   font-size: 1.15rem;
   height: 2.15rem;
@@ -304,7 +311,7 @@ main .container h2 span {
 }
 
 .footer .container .footer-social > div a:hover i {
-  color: #eeeeee;
+  color: #e5e5e5;
 }
 
 .footer .container .footer-links span {
@@ -330,19 +337,19 @@ main .container h2 span {
           flex-direction: row;
   margin-bottom: 0.75rem;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .footer .container .footer-links ul li a {
-  color: #eeeeee;
+  color: #e5e5e5;
   text-decoration: none;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
 .footer .container .footer-links ul li a > i::before {
-  background: -webkit-gradient(linear, left top, right top, from(#4651f1), to(#313ef0));
-  background: linear-gradient(to right, #4651f1 0%, #313ef0 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#6772ff), to(#5a65ff));
+  background: linear-gradient(to right, #6772ff 0%, #5a65ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -380,8 +387,8 @@ main .container h2 span {
 }
 
 .footer .container .footer-contact ul li a {
-  background: -webkit-gradient(linear, left top, right top, from(#4651f1), to(#313ef0));
-  background: linear-gradient(to right, #4651f1 0%, #313ef0 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#6772ff), to(#5a65ff));
+  background: linear-gradient(to right, #6772ff 0%, #5a65ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -389,18 +396,17 @@ main .container h2 span {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   background-size: 200% auto;
-  background-position: right center;
+  background-position: initial;
 }
 
 .footer .container .footer-contact ul li a:hover {
-  color: #f5f5f5;
-  background-position: initial;
+  background-position: right center;
 }
 
 .footer .container > span {
   display: block;
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
   color: #dddddd;
 }
 

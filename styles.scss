@@ -1,16 +1,16 @@
 $primary-text-color: #f5f5f5;
-$secondary-text-color: #eeeeee;
+$secondary-text-color: #e5e5e5;
 $tertiary-text-color: #dddddd;
-$primary-background-color: #111;
+$primary-background-color: #121212;
 $secondary-background-color: #1a1a1a;
 /*
 $tint: #6bd2e4;
 $primary: #30c0d9;
 $shade: #23a9c0;
 */
-$tint: #606af3;
-$primary: #4651f1;
-$shade: #313ef0;
+$tint: #6772ff;
+$primary: #5a65ff;
+$shade: #2a38ff;
 
 * {
   box-sizing: border-box;
@@ -117,7 +117,7 @@ h2 {
       display: inline-block;
       margin-left: 1.5rem;
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 600;
       height: 100%;
 
       a {
@@ -172,6 +172,7 @@ main {
       text-transform: uppercase;
       font-size: 2.25rem;
       margin-bottom: 0.25rem;
+      font-weight: 600;
     }
 
     h2 {
@@ -179,6 +180,7 @@ main {
       font-size: 2.75rem;
       margin-bottom: 0.75rem;
       text-align: left;
+      font-weight: 300;
 
       span {
         background: linear-gradient(to right, $tint 0%, $primary 100%);
@@ -186,6 +188,11 @@ main {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+    }
+
+    a {
+      display: block;
+      margin-right: auto;
     }
   }
 }
@@ -232,7 +239,7 @@ main {
 
       > span {
         font-size: 2rem;
-        font-weight: 700;
+        font-weight: 500;
         color: $primary-text-color;
         margin-bottom: 0.5rem;
       }
@@ -243,7 +250,7 @@ main {
         align-items: center;
 
         a {
-          background: linear-gradient(to right, $primary 0%, $shade 100%);
+          background: linear-gradient(to right, $tint 0%, $primary 100%);
           border-radius: 2rem;
           font-size: 1.15rem;
           height: 2.15rem;
@@ -287,7 +294,7 @@ main {
           flex-direction: row;
           margin-bottom: 0.75rem;
           font-size: 20px;
-          font-weight: 700;
+          font-weight: 600;
 
           a {
             color: $secondary-text-color;
@@ -295,7 +302,7 @@ main {
             transition: all 0.2s ease;
 
             > i::before {
-              background: linear-gradient(to right, $primary 0%, $shade 100%);
+              background: linear-gradient(to right, $tint 0%, $primary 100%);
               background-clip: text;
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
@@ -331,18 +338,17 @@ main {
           font-weight: 700;
 
           a {
-            background: linear-gradient(to right, $primary 0%, $shade 100%);
+            background: linear-gradient(to right, $tint 0%, $primary 100%);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-decoration: none;
             transition: all 0.2s ease;
             background-size: 200% auto;
-            background-position: right center;
+            background-position: initial;
 
             &:hover {
-              color: $primary-text-color;
-              background-position: initial;
+              background-position: right center;
             }
           }
         }
@@ -352,7 +358,7 @@ main {
     > span {
       display: block;
       text-align: center;
-      font-weight: 700;
+      font-weight: 600;
       color: $tertiary-text-color;
 
       a {
