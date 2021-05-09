@@ -28,8 +28,8 @@ body {
   border-radius: 2rem;
   color: white;
   background-size: 200% auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#4361ee), to(#3f37c9));
-  background-image: linear-gradient(to right, #4361ee 0%, #3f37c9 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#3252f3), to(#624dfa));
+  background-image: linear-gradient(to right, #3252f3 0%, #624dfa 100%);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.2s ease;
@@ -55,8 +55,8 @@ body {
   border-radius: 2rem;
   color: white;
   background-size: 200% auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(#4361ee), to(#3f37c9));
-  background-image: linear-gradient(to right, #4361ee 0%, #3f37c9 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#3252f3), to(#624dfa));
+  background-image: linear-gradient(to right, #3252f3 0%, #624dfa 100%);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.2s ease;
@@ -74,7 +74,7 @@ body {
 }
 
 hr {
-  border-top: 1px solid #444;
+  border-top: 1px solid #555;
   opacity: 0.5;
   margin: 1.5rem 0;
 }
@@ -130,15 +130,15 @@ h2 {
 }
 
 .navbar ul li a {
-  color: #444;
+  color: #555;
   text-decoration: none;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
 .navbar ul li a > i::before {
-  background: -webkit-gradient(linear, left top, right top, from(#4361ee), to(#5d5aff));
-  background: linear-gradient(to right, #4361ee 0%, #5d5aff 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#3252f3), to(#624dfa));
+  background: linear-gradient(to right, #3252f3 0%, #624dfa 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -183,7 +183,7 @@ main .container .col-sm-6.center img {
 }
 
 main .container h1 {
-  color: #444;
+  color: #555;
   text-transform: uppercase;
   font-size: 2.25rem;
   margin-bottom: 0.25rem;
@@ -199,8 +199,8 @@ main .container h2 {
 }
 
 main .container h2 span {
-  background: -webkit-gradient(linear, left top, right top, from(#4361ee), to(#5d5aff));
-  background: linear-gradient(to right, #4361ee 0%, #5d5aff 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#3252f3), to(#624dfa));
+  background: linear-gradient(to right, #3252f3 0%, #624dfa 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -228,7 +228,7 @@ main .container a {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  color: #444;
+  color: #555;
 }
 
 #whatido .col-sm-3 div img {
@@ -283,8 +283,8 @@ main .container a {
 }
 
 .footer .container .footer-social > div a {
-  background: -webkit-gradient(linear, left top, right top, from(#4361ee), to(#5d5aff));
-  background: linear-gradient(to right, #4361ee 0%, #5d5aff 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#3252f3), to(#624dfa));
+  background: linear-gradient(to right, #3252f3 0%, #624dfa 100%);
   border-radius: 2rem;
   font-size: 1.15rem;
   height: 2.15rem;
@@ -315,7 +315,7 @@ main .container a {
 }
 
 .footer .container .footer-links span {
-  color: #777;
+  color: #999;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
@@ -341,15 +341,15 @@ main .container a {
 }
 
 .footer .container .footer-links ul li a {
-  color: #444;
+  color: #555;
   text-decoration: none;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
 .footer .container .footer-links ul li a > i::before {
-  background: -webkit-gradient(linear, left top, right top, from(#4361ee), to(#5d5aff));
-  background: linear-gradient(to right, #4361ee 0%, #5d5aff 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#3252f3), to(#624dfa));
+  background: linear-gradient(to right, #3252f3 0%, #624dfa 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -361,7 +361,7 @@ main .container a {
 }
 
 .footer .container .footer-contact span {
-  color: #777;
+  color: #999;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
@@ -387,8 +387,8 @@ main .container a {
 }
 
 .footer .container .footer-contact ul li a {
-  background: -webkit-gradient(linear, left top, right top, from(#4361ee), to(#5d5aff));
-  background: linear-gradient(to right, #4361ee 0%, #5d5aff 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#3252f3), to(#624dfa));
+  background: linear-gradient(to right, #3252f3 0%, #624dfa 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -407,7 +407,7 @@ main .container a {
   display: block;
   text-align: center;
   font-weight: 600;
-  color: #777;
+  color: #999;
 }
 
 .footer .container > span a {
