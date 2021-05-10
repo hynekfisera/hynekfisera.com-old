@@ -246,6 +246,13 @@ main .container a {
           align-items: center;
 }
 
+#mywork .product .row:nth-child(odd) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
 #mywork .product .row > div {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -221,6 +221,10 @@ main {
   display: flex;
   align-items: center;
 
+  .row:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
   .row > div {
     display: flex;
     flex-direction: row;
