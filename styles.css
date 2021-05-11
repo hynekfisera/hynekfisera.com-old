@@ -30,7 +30,7 @@ body {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   cursor: pointer;
-  background-position: right center;
+  background-position: initial;
 }
 
 .btn-primary i {
@@ -38,7 +38,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-position: initial;
+  background-position: right center;
 }
 
 .btn-primary-alt {
@@ -57,7 +57,7 @@ body {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   cursor: pointer;
-  background-position: right center;
+  background-position: initial;
 }
 
 .btn-primary-alt i {
@@ -65,7 +65,7 @@ body {
 }
 
 .btn-primary-alt:hover {
-  background-position: initial;
+  background-position: right center;
 }
 
 hr {
