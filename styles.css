@@ -22,6 +22,7 @@ body {
   outline: none;
   border-radius: 2rem;
   color: white;
+  text-decoration: none;
   background-size: 200% auto;
   background-image: -webkit-gradient(linear, left top, right top, from(#3252f3), to(#624dfa));
   background-image: linear-gradient(to right, #3252f3 0%, #624dfa 100%);
@@ -49,6 +50,7 @@ body {
   outline: none;
   border-radius: 2rem;
   color: white;
+  text-decoration: none;
   background-size: 200% auto;
   background-image: -webkit-gradient(linear, left top, right top, from(#3252f3), to(#624dfa));
   background-image: linear-gradient(to right, #3252f3 0%, #624dfa 100%);
@@ -124,14 +126,14 @@ h2 {
   height: 100%;
 }
 
-.navbar ul li a {
+.navbar ul li a:not(.btn-primary) {
   color: #555;
   text-decoration: none;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
-.navbar ul li a > i::before {
+.navbar ul li a:not(.btn-primary) > i::before {
   background: -webkit-gradient(linear, left top, right top, from(#3252f3), to(#624dfa));
   background: linear-gradient(to right, #3252f3 0%, #624dfa 100%);
   background-clip: text;
@@ -140,7 +142,7 @@ h2 {
   display: initial;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:not(.btn-primary):hover {
   color: #111;
 }
 

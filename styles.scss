@@ -29,6 +29,7 @@ body {
   outline: none;
   border-radius: 2rem;
   color: white;
+  text-decoration: none;
   background-size: 200% auto;
   background-image: linear-gradient(to right, $primary 0%, $secondary 100%);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -53,6 +54,7 @@ body {
   outline: none;
   border-radius: 2rem;
   color: white;
+  text-decoration: none;
   background-size: 200% auto;
   background-image: linear-gradient(to right, $primary 0%, $secondary 100%);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -114,7 +116,7 @@ h2 {
       font-weight: 600;
       height: 100%;
 
-      a {
+      a:not(.btn-primary) {
         color: $secondary-text-color;
         text-decoration: none;
         transition: all 0.2s ease;
