@@ -1,3 +1,35 @@
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px !important;
+  }
+
+  .navbar {
+    display: none !important;
+  }
+
+  main .container .col-md-6 {
+    align-items: center !important;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin: 0.5rem 0 1rem;
+    }
+
+    a {
+      margin: 0 auto !important;
+    }
+  }
+
+  #mywork .product .row {
+    margin-bottom: 7rem;
+  }
+}
+
 $primary-text-color: #111;
 $secondary-text-color: #555;
 $tertiary-text-color: #999;
@@ -22,9 +54,9 @@ body {
 }
 
 .btn-primary {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
-  padding: 10px 20px;
+  padding: 0.6rem 1.2rem;
   border: none;
   outline: none;
   border-radius: 2rem;
@@ -47,9 +79,9 @@ body {
 }
 
 .btn-primary-alt {
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 700;
-  padding: 12px 24px;
+  padding: 0.75rem 1.5rem;
   border: none;
   outline: none;
   border-radius: 2rem;
@@ -143,13 +175,13 @@ main {
   padding: 3rem 0.5rem 2rem;
 
   .container {
-    .col-sm-6 {
+    .col-md-6 {
       display: flex;
       flex-direction: column;
       justify-content: center;
     }
 
-    .col-sm-6.center {
+    .col-md-6.center {
       align-items: center;
 
       img {
@@ -189,7 +221,7 @@ main {
 
 //whatido
 
-#whatido .col-sm-3 {
+#whatido .col-md-3 {
   padding: 0 1rem;
 
   div {
@@ -219,10 +251,6 @@ main {
 //mywork
 
 #mywork .product {
-  min-height: 600px;
-  display: flex;
-  align-items: center;
-
   .row:nth-child(odd) {
     flex-direction: row-reverse;
   }
@@ -296,12 +324,15 @@ main {
 
 .footer {
   background-color: $secondary-background-color;
-  padding: 3rem 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
   .container {
     .footer-social {
       display: flex;
       flex-direction: column;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
 
       > span {
         font-size: 2rem;
@@ -343,6 +374,8 @@ main {
     }
 
     .footer-links {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
       span {
         color: $tertiary-text-color;
         text-transform: uppercase;
@@ -384,6 +417,8 @@ main {
     }
 
     .footer-contact {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
       span {
         color: $tertiary-text-color;
         text-transform: uppercase;
