@@ -290,6 +290,7 @@ main .container a {
   width: 100%;
   max-width: 50vh;
   height: auto;
+  margin: 0 auto;
 }
 
 #mywork .product .row > div .logo {
